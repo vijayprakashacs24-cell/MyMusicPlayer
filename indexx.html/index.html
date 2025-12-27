@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Music Player (No JavaScript)</title>
+</head>
+
+<body style="
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#121212,#1db954);
+font-family:Arial, sans-serif;
+">
+
+<!-- PLAYER CARD -->
+<div style="
+width:340px;
+background:#181818;
+border-radius:20px;
+padding:25px;
+color:white;
+box-shadow:0 20px 40px rgba(0,0,0,0.7);
+text-align:center;
+">
+
+<!-- ALBUM ART -->
+<img src="https://via.placeholder.com/280"
+style="
+width:100%;
+border-radius:15px;
+margin-bottom:15px;
+box-shadow:0 15px 30px rgba(0,0,0,0.6);
+">
+
+<!-- SONG DETAILS -->
+<h2 style="margin:10px 0 5px;">Sample Song</h2>
+<p style="margin:0 0 15px;color:#b3b3b3;">Artist Name</p>
+
+<!-- AUDIO CONTROLS -->
+<audio controls
+style="
+width:100%;
+accent-color:#1db954;
+border-radius:10px;
+">
+    <source src="sample.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+</audio>
+
+<!-- EXTRA INFO -->
+<p style="
+margin-top:15px;
+font-size:12px;
+color:#b3b3b3;
+">
+🎧 Enjoy music like Spotify (HTML + CSS only)
+</p>
+
+</div>
+
+</body>
+</html>
